@@ -20,8 +20,10 @@ Topics:
 
     setTimeout -> Execute a set of statements after specific milliseconds
     
+    
     setInterval -> Execute a set of statments repeatedly/frequently with specific interval in milliseconds
-
+    var interId = setInterval(() => {}, 2000);
+    clearInterval(interId); // clear interval
 
 working with events
 working with events
